@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+   int accbal=100;
+   int amount=51;
+   if (amount<accbal)
+   {
+       if (amount%100==0)                                                    
+       {
+           printf("widrawal sucess ");
+       }
+       else
+       {
+           printf("invalid determination");
+       }   
+   }
+   else
+     {
+           printf("insufffient balance");
+     }
+    return 0;
+}
