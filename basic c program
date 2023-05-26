@@ -7,3 +7,57 @@ int main() {
 
     return 0;
 }
+
+\\program to print the value of A
+#include <stdio.h>
+
+int main() {
+    int a=10;
+    
+    printf("%d",a);
+
+    return 0;
+}
+
+\\program to print the number value of the character
+#include <stdio.h>
+
+int main() {
+   char a='a';
+    
+    printf("%d",a);
+
+    return 0;
+}
+\\OUTPUT
+97
+
+
+\\PROGRAM TO PRINT THE VALUE OF a USING scanf()
+
+#include <stdio.h>
+
+int main() {
+   int a;
+   printf("enter the value of a;");
+   scanf("%d",&a);
+   printf("the value entered in a is:%d",a);
+
+    return 0;
+}
+\\OUTPUT
+enter the value of a;10
+the value entered in a is:10
+
+\\PROGRAM TO FIND THE SQUARE OF THE NUMBER
+#include <stdio.h>
+
+int main() {
+   int a=10;
+   int b=a*a;
+   printf("the squared value is:%d",);
+
+    return 0;
+}
+\\OUTPUT
+the squared value is:10
