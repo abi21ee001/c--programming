@@ -1,0 +1,117 @@
+#include <stdio.h>
+
+int main() {
+    int num[5]={7,5,13,1,4};
+    printf("%d\n",num[0]);
+    printf("%d\n",num[1]);
+    printf("%d\n",num[2]);
+    printf("%d\n",num[3]);
+    printf("%d\n",num[4]);
+    
+
+    return 0;
+}
+
+\\output
+7
+5
+13
+1
+4
+
+\\using scanf function
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for (int i=0;i<n;i++)
+    {
+        printf("%d",arr[i]);
+    }
+    return 0;
+}
+    \\revrse the element
+    
+    #include <stdio.h>
+int main (){
+    int arr[5]={1,2,3,4,5};
+    for(int i=5-1;i>=0;i--)
+    {
+        printf("%d", arr[i]);
+    }
+}
+
+\\reverse the output uswing scanf
+
+
+
+# include <stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0; i<n; i++)
+    {
+     scanf("%d",&arr[i]);
+     
+    }
+    for (int i=n-1;i>=0; i--)
+    {
+        printf("%d", arr[i]);
+    }
+}
+\\ output
+5
+5
+4
+3
+2
+1
+12345
+
+\\sum of the elements in array
+
+
+# include <stdio.h>
+int main(){
+    int arr[5]={1,2,3,4,5};
+    int sum=0;
+    for (int i=0;i<5;i++)
+    {
+        sum=sum+arr[i];
+        
+    }
+    printf("%d",sum);
+}
+
+\\output
+15
+
+
+
+\\to find average
+
+
+
+#include <stdio.h>
+int main(){
+    int arr[5]={1,2,3,4,5};
+    int sum=0;
+    float avg=0;
+    for (int i=0; i<5; i++)
+    {
+        sum=sum+arr[i];
+    }
+avg=sum/5;
+
+printf("%f",avg);
+}
+
+\\output
+3
