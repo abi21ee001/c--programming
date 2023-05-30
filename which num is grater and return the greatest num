@@ -1,0 +1,26 @@
+#include <stdio.h>
+int graetNum();
+
+int main()
+{
+  int a=graetNum();
+  printf("%d",a);
+}
+int graetNum()
+{
+    int x,y,graetNum;
+    printf("enter the two values:\n");
+    scanf("%d%d",&x,&y);
+    if(x>y)
+    graetNum=x;
+    else
+    graetNum=y;
+    
+    return graetNum;
+}
+    
+
+\\output
+5
+6
+6
