@@ -24,3 +24,30 @@ int graetNum()
 5
 6
 6
+
+\\to find positive 
+#include <stdio.h>
+int positiveNum();
+
+int main()
+{
+  int a=positiveNum();
+  printf("%d",a);
+}
+int positiveNum()
+
+{
+    int x,y,positiveNum;
+    printf("enter the two values:\n");
+    scanf("%d%d",&x,&y);
+    if(y>0)
+    positiveNum=y;
+    else 
+    positiveNum=x;
+    
+    return positiveNum;
+}
+    
+
+
+
