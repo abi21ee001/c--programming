@@ -18,3 +18,8 @@ int main() {
     }
     printf("%d",sum);
 }
+\\output
+1
+5
+9
+25
