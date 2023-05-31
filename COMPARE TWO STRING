@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+   char str1[]="HELLO";
+   char str2[]="HELLO";
+   printf("%d",strcmp(str1,str2));
+
+    return 0;
+}
+\\OUTPUT
+0
