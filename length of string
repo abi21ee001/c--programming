@@ -1,0 +1,6 @@
+#include <stdio.h>
+ int main(){
+     char str[]="abirami";
+     char len=strlen(str);
+     printf("%d",len);
+ }
