@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+   struct student
+   {
+       char name[50];
+       int age;
+       float cgpa;
+       
+   };
+   struct student s1={"abi",19,10.0};
+   struct student s2={"abbi",19,9.1};
+   printf("s1 details\n");
+   printf("%s\n",s1.name);
+    printf("%d\n",s1.age);
+     printf("%f\n",s1.cgpa);
+     printf("s2 detais\n");
+     
+      printf("%s\n",s2.name);
+       printf("%d\n",s2.age);
+        printf("%f\n",s2.cgpa);
+        
+        
+}
+        
+   \\output
+   s1 details
+abi
+19
+10.000000
+s2 detais
+abbi
+19
+9.100000
