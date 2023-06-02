@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    char c='l';
+    int lowercase,uppercase;
+     lowercase=(c=='a' || c=='e' || c=='i' || c=='o' ||c=='u');
+     uppercase=(c=='A' || c=='E'  || c=='I'  || c=='O' || c=='U');
+    if(lowercase || uppercase)
+    printf("it is vowel");
+    else
+    printf("it is constant");
+    
+    
+    
+}
